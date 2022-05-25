@@ -1,8 +1,6 @@
 import requests
 
-def check_server_status():
+def check_server_status(url):
+    """Method for checking if server is up and running."""
     a = requests.get(url)
-    if a.status_code = 200:
-        return True
-    else:
-        return False
+    return a.status_code
