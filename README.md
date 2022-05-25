@@ -1,1 +1,1 @@
-## repair the script to return True or False depending on the server status. Do not change the URL of the server.
+### Repair ping.py script to return True if the server is up and False if the server is down.
